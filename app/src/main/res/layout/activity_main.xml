@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.educareapps.jsonreader.MainActivity">
-<ListView
-    android:id="@+id/lvItem"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:weightSum="1">
 
-</ListView>
 
-</RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/lnShare"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:weightSum="1.0">
+        <Button android:id="@+id/ibtnImportId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Import"
+            android:layout_weight="0.5" />
+        <Button android:id="@+id/ibtnShareId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="export"
+            android:layout_weight="0.5" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvItem"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".9"
+        android:layout_below="@+id/lnShare" />
+
+
+</LinearLayout>
