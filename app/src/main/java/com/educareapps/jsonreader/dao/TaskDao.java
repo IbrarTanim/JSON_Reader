@@ -54,12 +54,12 @@ public class TaskDao extends AbstractDao<Task, Long> {
         public final static Property ErrorMandatoryScreen = new Property(25, int.class, "errorMandatoryScreen", false, "ERROR_MANDATORY_SCREEN");
         public final static Property SequenceText = new Property(26, String.class, "sequenceText", false, "SEQUENCE_TEXT");
         public final static Property Template = new Property(27, int.class, "template", false, "TEMPLATE");
-        public final static Property TaskExtraOne = new Property(28, Integer.class, "taskExtraOne", false, "TASK_EXTRA_ONE");
+        public final static Property TaskExtraOne = new Property(28, int.class, "taskExtraOne", false, "TASK_EXTRA_ONE");
         public final static Property TaskExtraTwo = new Property(29, Integer.class, "taskExtraTwo", false, "TASK_EXTRA_TWO");
         public final static Property TaskExtraThree = new Property(30, String.class, "taskExtraThree", false, "TASK_EXTRA_THREE");
         public final static Property TaskExtraFour = new Property(31, String.class, "taskExtraFour", false, "TASK_EXTRA_FOUR");
         public final static Property TaskExtraFive = new Property(32, Integer.class, "taskExtraFive", false, "TASK_EXTRA_FIVE");
-        public final static Property Bubble = new Property(33, int.class, "bubble", false, "BUBBLE");
+        public final static Property Bubble = new Property(33, Integer.class, "bubble", false, "BUBBLE");
         public final static Property UserId = new Property(34, long.class, "userId", false, "USER_ID");
     };
 
@@ -83,7 +83,7 @@ public class TaskDao extends AbstractDao<Task, Long> {
                 "\"ID\" INTEGER PRIMARY KEY ," + // 0: id
                 "\"UNIQ_ID\" INTEGER NOT NULL ," + // 1: uniqId
                 "\"NAME\" TEXT NOT NULL ," + // 2: name
-                "\"TASK_IMAGE\" TEXT," + // 3: taskImage
+                "\"TASK_IMAGE\" TEXT NOT NULL ," + // 3: taskImage
                 "\"TYPE\" TEXT NOT NULL ," + // 4: type
                 "\"BACKGROUND_COLOR\" INTEGER NOT NULL ," + // 5: backgroundColor
                 "\"BACKGROUND_IMAGE\" TEXT," + // 6: backgroundImage
@@ -108,12 +108,12 @@ public class TaskDao extends AbstractDao<Task, Long> {
                 "\"ERROR_MANDATORY_SCREEN\" INTEGER NOT NULL ," + // 25: errorMandatoryScreen
                 "\"SEQUENCE_TEXT\" TEXT NOT NULL ," + // 26: sequenceText
                 "\"TEMPLATE\" INTEGER NOT NULL ," + // 27: template
-                "\"TASK_EXTRA_ONE\" INTEGER," + // 28: taskExtraOne
+                "\"TASK_EXTRA_ONE\" INTEGER NOT NULL ," + // 28: taskExtraOne
                 "\"TASK_EXTRA_TWO\" INTEGER," + // 29: taskExtraTwo
                 "\"TASK_EXTRA_THREE\" TEXT," + // 30: taskExtraThree
                 "\"TASK_EXTRA_FOUR\" TEXT," + // 31: taskExtraFour
                 "\"TASK_EXTRA_FIVE\" INTEGER," + // 32: taskExtraFive
-                "\"BUBBLE\" INTEGER NOT NULL ," + // 33: bubble
+                "\"BUBBLE\" INTEGER," + // 33: bubble
                 "\"USER_ID\" INTEGER NOT NULL );"); // 34: userId
     }
 
@@ -134,11 +134,7 @@ public class TaskDao extends AbstractDao<Task, Long> {
         }
         stmt.bindLong(2, entity.getUniqId());
         stmt.bindString(3, entity.getName());
- 
-        String taskImage = entity.getTaskImage();
-        if (taskImage != null) {
-            stmt.bindString(4, taskImage);
-        }
+        stmt.bindString(4, entity.getTaskImage());
         stmt.bindString(5, entity.getType());
         stmt.bindLong(6, entity.getBackgroundColor());
  
@@ -183,11 +179,7 @@ public class TaskDao extends AbstractDao<Task, Long> {
         stmt.bindLong(26, entity.getErrorMandatoryScreen());
         stmt.bindString(27, entity.getSequenceText());
         stmt.bindLong(28, entity.getTemplate());
- 
-        Integer taskExtraOne = entity.getTaskExtraOne();
-        if (taskExtraOne != null) {
-            stmt.bindLong(29, taskExtraOne);
-        }
+        stmt.bindLong(29, entity.getTaskExtraOne());
  
         Integer taskExtraTwo = entity.getTaskExtraTwo();
         if (taskExtraTwo != null) {
@@ -208,7 +200,11 @@ public class TaskDao extends AbstractDao<Task, Long> {
         if (taskExtraFive != null) {
             stmt.bindLong(33, taskExtraFive);
         }
-        stmt.bindLong(34, entity.getBubble());
+ 
+        Integer bubble = entity.getBubble();
+        if (bubble != null) {
+            stmt.bindLong(34, bubble);
+        }
         stmt.bindLong(35, entity.getUserId());
     }
 
@@ -231,7 +227,7 @@ public class TaskDao extends AbstractDao<Task, Long> {
             cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0), // id
             cursor.getLong(offset + 1), // uniqId
             cursor.getString(offset + 2), // name
-            cursor.isNull(offset + 3) ? null : cursor.getString(offset + 3), // taskImage
+            cursor.getString(offset + 3), // taskImage
             cursor.getString(offset + 4), // type
             cursor.getInt(offset + 5), // backgroundColor
             cursor.isNull(offset + 6) ? null : cursor.getString(offset + 6), // backgroundImage
@@ -256,12 +252,12 @@ public class TaskDao extends AbstractDao<Task, Long> {
             cursor.getInt(offset + 25), // errorMandatoryScreen
             cursor.getString(offset + 26), // sequenceText
             cursor.getInt(offset + 27), // template
-            cursor.isNull(offset + 28) ? null : cursor.getInt(offset + 28), // taskExtraOne
+            cursor.getInt(offset + 28), // taskExtraOne
             cursor.isNull(offset + 29) ? null : cursor.getInt(offset + 29), // taskExtraTwo
             cursor.isNull(offset + 30) ? null : cursor.getString(offset + 30), // taskExtraThree
             cursor.isNull(offset + 31) ? null : cursor.getString(offset + 31), // taskExtraFour
             cursor.isNull(offset + 32) ? null : cursor.getInt(offset + 32), // taskExtraFive
-            cursor.getInt(offset + 33), // bubble
+            cursor.isNull(offset + 33) ? null : cursor.getInt(offset + 33), // bubble
             cursor.getLong(offset + 34) // userId
         );
         return entity;
@@ -273,7 +269,7 @@ public class TaskDao extends AbstractDao<Task, Long> {
         entity.setId(cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0));
         entity.setUniqId(cursor.getLong(offset + 1));
         entity.setName(cursor.getString(offset + 2));
-        entity.setTaskImage(cursor.isNull(offset + 3) ? null : cursor.getString(offset + 3));
+        entity.setTaskImage(cursor.getString(offset + 3));
         entity.setType(cursor.getString(offset + 4));
         entity.setBackgroundColor(cursor.getInt(offset + 5));
         entity.setBackgroundImage(cursor.isNull(offset + 6) ? null : cursor.getString(offset + 6));
@@ -298,12 +294,12 @@ public class TaskDao extends AbstractDao<Task, Long> {
         entity.setErrorMandatoryScreen(cursor.getInt(offset + 25));
         entity.setSequenceText(cursor.getString(offset + 26));
         entity.setTemplate(cursor.getInt(offset + 27));
-        entity.setTaskExtraOne(cursor.isNull(offset + 28) ? null : cursor.getInt(offset + 28));
+        entity.setTaskExtraOne(cursor.getInt(offset + 28));
         entity.setTaskExtraTwo(cursor.isNull(offset + 29) ? null : cursor.getInt(offset + 29));
         entity.setTaskExtraThree(cursor.isNull(offset + 30) ? null : cursor.getString(offset + 30));
         entity.setTaskExtraFour(cursor.isNull(offset + 31) ? null : cursor.getString(offset + 31));
         entity.setTaskExtraFive(cursor.isNull(offset + 32) ? null : cursor.getInt(offset + 32));
-        entity.setBubble(cursor.getInt(offset + 33));
+        entity.setBubble(cursor.isNull(offset + 33) ? null : cursor.getInt(offset + 33));
         entity.setUserId(cursor.getLong(offset + 34));
      }
     

@@ -14,6 +14,7 @@ public class Task {
     private long uniqId;
     /** Not-null value. */
     private String name;
+    /** Not-null value. */
     private String taskImage;
     /** Not-null value. */
     private String type;
@@ -47,12 +48,12 @@ public class Task {
     /** Not-null value. */
     private String sequenceText;
     private int template;
-    private Integer taskExtraOne;
+    private int taskExtraOne;
     private Integer taskExtraTwo;
     private String taskExtraThree;
     private String taskExtraFour;
     private Integer taskExtraFive;
-    private int bubble;
+    private Integer bubble;
     private long userId;
 
     /** Used to resolve relations */
@@ -71,7 +72,7 @@ public class Task {
         this.id = id;
     }
 
-    public Task(Long id, long uniqId, String name, String taskImage, String type, int backgroundColor, String backgroundImage, int slideSequence, Boolean active, java.util.Date createdAt, java.util.Date updatedAt, Long taskPackId, String feedbackImage, int feedbackAnimation, int positiveAnimation, int negativeAnimation, String feedbackSound, String positiveSound, String negativeSound, int feedbackType, int tutorial, int transition, int errorBgColor, String errorImage, String errortext, int errorMandatoryScreen, String sequenceText, int template, Integer taskExtraOne, Integer taskExtraTwo, String taskExtraThree, String taskExtraFour, Integer taskExtraFive, int bubble, long userId) {
+    public Task(Long id, long uniqId, String name, String taskImage, String type, int backgroundColor, String backgroundImage, int slideSequence, Boolean active, java.util.Date createdAt, java.util.Date updatedAt, Long taskPackId, String feedbackImage, int feedbackAnimation, int positiveAnimation, int negativeAnimation, String feedbackSound, String positiveSound, String negativeSound, int feedbackType, int tutorial, int transition, int errorBgColor, String errorImage, String errortext, int errorMandatoryScreen, String sequenceText, int template, int taskExtraOne, Integer taskExtraTwo, String taskExtraThree, String taskExtraFour, Integer taskExtraFive, Integer bubble, long userId) {
         this.id = id;
         this.uniqId = uniqId;
         this.name = name;
@@ -141,10 +142,12 @@ public class Task {
         this.name = name;
     }
 
+    /** Not-null value. */
     public String getTaskImage() {
         return taskImage;
     }
 
+    /** Not-null value; ensure this value is available before it is saved to the database. */
     public void setTaskImage(String taskImage) {
         this.taskImage = taskImage;
     }
@@ -357,11 +360,11 @@ public class Task {
         this.template = template;
     }
 
-    public Integer getTaskExtraOne() {
+    public int getTaskExtraOne() {
         return taskExtraOne;
     }
 
-    public void setTaskExtraOne(Integer taskExtraOne) {
+    public void setTaskExtraOne(int taskExtraOne) {
         this.taskExtraOne = taskExtraOne;
     }
 
@@ -397,11 +400,11 @@ public class Task {
         this.taskExtraFive = taskExtraFive;
     }
 
-    public int getBubble() {
+    public Integer getBubble() {
         return bubble;
     }
 
-    public void setBubble(int bubble) {
+    public void setBubble(Integer bubble) {
         this.bubble = bubble;
     }
 

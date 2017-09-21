@@ -32,7 +32,6 @@ public class Generator {
         addTables(schema);
         new DaoGenerator().generateAll(schema, OUT_DIR);
     }
-
     /**
      * Create tables and the relationships between them
      */
@@ -43,9 +42,6 @@ public class Generator {
         Entity task = addTask(schema, user);
         Entity item = addItem(schema, task);
         Entity result = addResult(schema, task, item);
-        Entity allGrid =  addGrid(schema);
-        Entity pointTbl =  addPoint(schema);
-        Entity dailyTable =  addDailyTable(schema);
     }
 
     /**
@@ -57,13 +53,10 @@ public class Generator {
         Entity user = schema.addEntity("User");
         user.addIdProperty().primaryKey().autoincrement();
         user.addStringProperty("name").notNull();
-        user.addIntProperty("age").notNull();
         user.addStringProperty("password").notNull();
-        user.addStringProperty("proPic").notNull();
-        user.addIntProperty("point").notNull();
         user.addBooleanProperty("active").notNull();
-       /* user.addDateProperty("createdAt").notNull();
-        user.addDateProperty("updatedAt").notNull();*/
+        user.addDateProperty("createdAt").notNull();
+        user.addDateProperty("updatedAt").notNull();
         return user;
     }
 
@@ -78,7 +71,7 @@ public class Generator {
         task.addLongProperty("id").primaryKey();
         task.addLongProperty("uniqId").notNull();
         task.addStringProperty("name").notNull();
-        task.addStringProperty("taskImage");
+        task.addStringProperty("taskImage").notNull();
         task.addStringProperty("type").notNull();
         task.addIntProperty("backgroundColor").notNull();
         task.addStringProperty("backgroundImage");
@@ -103,14 +96,14 @@ public class Generator {
         task.addIntProperty("errorMandatoryScreen").notNull();
         task.addStringProperty("sequenceText").notNull();
         task.addIntProperty("template").notNull();
+
         // for extra feature
-        task.addIntProperty("taskExtraOne");
+        task.addIntProperty("taskExtraOne").notNull();
         task.addIntProperty("taskExtraTwo");
         task.addStringProperty("taskExtraThree");
         task.addStringProperty("taskExtraFour");
-        task.addIntProperty("taskExtraFive");// for selection
-
-        task.addIntProperty("bubble").notNull();
+        task.addIntProperty("taskExtraFive");
+        task.addIntProperty("bubble");
 
         Property userIdProperty = task.addLongProperty("userId").notNull().getProperty();
         ToMany userToTask = user.addToMany(task, userIdProperty);
@@ -124,7 +117,6 @@ public class Generator {
      *
      * @return Item entity
      */
-
     private static Entity addItem(Schema schema, Entity task) {
         Entity item = schema.addEntity("Item");
         item.addIdProperty().primaryKey().autoincrement();
@@ -177,8 +169,8 @@ public class Generator {
         item.addStringProperty("showedMiniFeedBack").notNull();
         item.addStringProperty("hideMiniFeedback").notNull();
 
-        item.addIntProperty("extraOne");// for Align Screen Align
-        item.addIntProperty("extraTwo");
+        item.addIntProperty("extraOne");// screen align
+        item.addIntProperty("extraTwo");// drag and drop option
         item.addStringProperty("extraThree");
         item.addStringProperty("extraFour");
         item.addIntProperty("extraFive");
@@ -221,16 +213,13 @@ public class Generator {
     private static Entity addTaskPack(Schema schema) {
         Entity taskPack = schema.addEntity("TaskPack");
         taskPack.addIdProperty().primaryKey().autoincrement();
- /*       taskPack.addStringProperty("name");
+      /*  taskPack.addStringProperty("name");
         taskPack.addIntProperty("level").notNull();// only for use literacyall App
         taskPack.addIntProperty("firstLayerTaskID").notNull();// only for use literacyall App
         taskPack.addIntProperty("touchAnimation").notNull(); //its a touch mode animation
-        taskPack.addIntProperty("itemOfAnimation").notNull(); */
+        taskPack.addIntProperty("itemOfAnimation").notNull();
+        taskPack.addDateProperty("createdAt");*/
         taskPack.addStringProperty("name").notNull();
-/*        taskPack.addIntProperty("level");// only for use literacyall App
-        taskPack.addIntProperty("firstLayerTaskID");// only for use literacyall App
-        taskPack.addIntProperty("touchAnimation"); //its a touch mode animation
-        taskPack.addIntProperty("itemOfAnimation");*/
         taskPack.addIntProperty("lessonNumber");
         taskPack.addIntProperty("ageRange").notNull();
         taskPack.addStringProperty("Description").notNull();
@@ -238,57 +227,6 @@ public class Generator {
         taskPack.addBooleanProperty("state");
         taskPack.addStringProperty("type");
         return taskPack;
-    }
-
-
-    ///// Create userBoard ***********************//////////
-    private static Entity addGrid(Schema schema) {
-        Entity firstGrid = schema.addEntity("AllGrid");
-        firstGrid.addIdProperty().primaryKey().autoincrement();
-        firstGrid.addLongProperty("userId");
-        firstGrid.addLongProperty("taskPackId").notNull();
-        firstGrid.addIntProperty("lessonNumber").notNull();
-        firstGrid.addStringProperty("type").notNull();
-        firstGrid.addStringProperty("description").notNull();
-        firstGrid.addBooleanProperty("status").notNull();
-        return  firstGrid;
-    }
-
-    ///// Create Point Table ***********************//////////
-    private static Entity addPoint(Schema schema) {
-        Entity pointTbl = schema.addEntity("Point");
-        pointTbl.addIdProperty().primaryKey().autoincrement();
-        pointTbl.addLongProperty("userId");
-        pointTbl.addLongProperty("taskPackId");
-        pointTbl.addIntProperty("lessonNumber");
-        pointTbl.addStringProperty("type");
-        pointTbl.addStringProperty("description");
-        pointTbl.addLongProperty("packRT");
-        pointTbl.addLongProperty("packDT");
-        pointTbl.addIntProperty("packPoint");
-
-        pointTbl.addIntProperty("errorSize");
-        pointTbl.addIntProperty("PackSize");
-        pointTbl.addIntProperty("PackAnsSize");
-        pointTbl.addLongProperty("insertedDateMillis");
-        return  pointTbl;
-    }
-
-    ///// Create Daily Table ***********************//////////
-    private static Entity addDailyTable(Schema schema) {
-
-        Entity dailyTbl = schema.addEntity("DailyTbl");
-
-        dailyTbl.addIdProperty().primaryKey().autoincrement();
-        dailyTbl.addLongProperty("userId").notNull();
-        dailyTbl.addLongProperty("greenTaskPackId");
-        dailyTbl.addLongProperty("blueTaskPackId");
-        dailyTbl.addLongProperty("pinkTaskPackId");
-        dailyTbl.addLongProperty("purpleTaskPackId");
-        dailyTbl.addLongProperty("orangeTaskPackId");
-        dailyTbl.addLongProperty("yellowTaskPackId");
-
-        return  dailyTbl;
     }
 
 }

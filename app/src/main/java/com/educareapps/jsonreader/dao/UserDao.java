@@ -25,11 +25,10 @@ public class UserDao extends AbstractDao<User, Long> {
     public static class Properties {
         public final static Property Id = new Property(0, Long.class, "id", true, "_id");
         public final static Property Name = new Property(1, String.class, "name", false, "NAME");
-        public final static Property Age = new Property(2, int.class, "age", false, "AGE");
-        public final static Property Password = new Property(3, String.class, "password", false, "PASSWORD");
-        public final static Property ProPic = new Property(4, String.class, "proPic", false, "PRO_PIC");
-        public final static Property Point = new Property(5, int.class, "point", false, "POINT");
-        public final static Property Active = new Property(6, boolean.class, "active", false, "ACTIVE");
+        public final static Property Password = new Property(2, String.class, "password", false, "PASSWORD");
+        public final static Property Active = new Property(3, boolean.class, "active", false, "ACTIVE");
+        public final static Property CreatedAt = new Property(4, java.util.Date.class, "createdAt", false, "CREATED_AT");
+        public final static Property UpdatedAt = new Property(5, java.util.Date.class, "updatedAt", false, "UPDATED_AT");
     };
 
     private DaoSession daoSession;
@@ -50,11 +49,10 @@ public class UserDao extends AbstractDao<User, Long> {
         db.execSQL("CREATE TABLE " + constraint + "\"USER\" (" + //
                 "\"_id\" INTEGER PRIMARY KEY AUTOINCREMENT ," + // 0: id
                 "\"NAME\" TEXT NOT NULL ," + // 1: name
-                "\"AGE\" INTEGER NOT NULL ," + // 2: age
-                "\"PASSWORD\" TEXT NOT NULL ," + // 3: password
-                "\"PRO_PIC\" TEXT NOT NULL ," + // 4: proPic
-                "\"POINT\" INTEGER NOT NULL ," + // 5: point
-                "\"ACTIVE\" INTEGER NOT NULL );"); // 6: active
+                "\"PASSWORD\" TEXT NOT NULL ," + // 2: password
+                "\"ACTIVE\" INTEGER NOT NULL ," + // 3: active
+                "\"CREATED_AT\" INTEGER NOT NULL ," + // 4: createdAt
+                "\"UPDATED_AT\" INTEGER NOT NULL );"); // 5: updatedAt
     }
 
     /** Drops the underlying database table. */
@@ -73,11 +71,10 @@ public class UserDao extends AbstractDao<User, Long> {
             stmt.bindLong(1, id);
         }
         stmt.bindString(2, entity.getName());
-        stmt.bindLong(3, entity.getAge());
-        stmt.bindString(4, entity.getPassword());
-        stmt.bindString(5, entity.getProPic());
-        stmt.bindLong(6, entity.getPoint());
-        stmt.bindLong(7, entity.getActive() ? 1L: 0L);
+        stmt.bindString(3, entity.getPassword());
+        stmt.bindLong(4, entity.getActive() ? 1L: 0L);
+        stmt.bindLong(5, entity.getCreatedAt().getTime());
+        stmt.bindLong(6, entity.getUpdatedAt().getTime());
     }
 
     @Override
@@ -98,11 +95,10 @@ public class UserDao extends AbstractDao<User, Long> {
         User entity = new User( //
             cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0), // id
             cursor.getString(offset + 1), // name
-            cursor.getInt(offset + 2), // age
-            cursor.getString(offset + 3), // password
-            cursor.getString(offset + 4), // proPic
-            cursor.getInt(offset + 5), // point
-            cursor.getShort(offset + 6) != 0 // active
+            cursor.getString(offset + 2), // password
+            cursor.getShort(offset + 3) != 0, // active
+            new java.util.Date(cursor.getLong(offset + 4)), // createdAt
+            new java.util.Date(cursor.getLong(offset + 5)) // updatedAt
         );
         return entity;
     }
@@ -112,11 +108,10 @@ public class UserDao extends AbstractDao<User, Long> {
     public void readEntity(Cursor cursor, User entity, int offset) {
         entity.setId(cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0));
         entity.setName(cursor.getString(offset + 1));
-        entity.setAge(cursor.getInt(offset + 2));
-        entity.setPassword(cursor.getString(offset + 3));
-        entity.setProPic(cursor.getString(offset + 4));
-        entity.setPoint(cursor.getInt(offset + 5));
-        entity.setActive(cursor.getShort(offset + 6) != 0);
+        entity.setPassword(cursor.getString(offset + 2));
+        entity.setActive(cursor.getShort(offset + 3) != 0);
+        entity.setCreatedAt(new java.util.Date(cursor.getLong(offset + 4)));
+        entity.setUpdatedAt(new java.util.Date(cursor.getLong(offset + 5)));
      }
     
     /** @inheritdoc */

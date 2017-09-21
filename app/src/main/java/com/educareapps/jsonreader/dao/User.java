@@ -13,13 +13,13 @@ public class User {
     private Long id;
     /** Not-null value. */
     private String name;
-    private int age;
     /** Not-null value. */
     private String password;
-    /** Not-null value. */
-    private String proPic;
-    private int point;
     private boolean active;
+    /** Not-null value. */
+    private java.util.Date createdAt;
+    /** Not-null value. */
+    private java.util.Date updatedAt;
 
     /** Used to resolve relations */
     private transient DaoSession daoSession;
@@ -36,14 +36,13 @@ public class User {
         this.id = id;
     }
 
-    public User(Long id, String name, int age, String password, String proPic, int point, boolean active) {
+    public User(Long id, String name, String password, boolean active, java.util.Date createdAt, java.util.Date updatedAt) {
         this.id = id;
         this.name = name;
-        this.age = age;
         this.password = password;
-        this.proPic = proPic;
-        this.point = point;
         this.active = active;
+        this.createdAt = createdAt;
+        this.updatedAt = updatedAt;
     }
 
     /** called by internal mechanisms, do not call yourself. */
@@ -70,14 +69,6 @@ public class User {
         this.name = name;
     }
 
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
     /** Not-null value. */
     public String getPassword() {
         return password;
@@ -88,30 +79,32 @@ public class User {
         this.password = password;
     }
 
-    /** Not-null value. */
-    public String getProPic() {
-        return proPic;
-    }
-
-    /** Not-null value; ensure this value is available before it is saved to the database. */
-    public void setProPic(String proPic) {
-        this.proPic = proPic;
-    }
-
-    public int getPoint() {
-        return point;
-    }
-
-    public void setPoint(int point) {
-        this.point = point;
-    }
-
     public boolean getActive() {
         return active;
     }
 
     public void setActive(boolean active) {
         this.active = active;
+    }
+
+    /** Not-null value. */
+    public java.util.Date getCreatedAt() {
+        return createdAt;
+    }
+
+    /** Not-null value; ensure this value is available before it is saved to the database. */
+    public void setCreatedAt(java.util.Date createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    /** Not-null value. */
+    public java.util.Date getUpdatedAt() {
+        return updatedAt;
+    }
+
+    /** Not-null value; ensure this value is available before it is saved to the database. */
+    public void setUpdatedAt(java.util.Date updatedAt) {
+        this.updatedAt = updatedAt;
     }
 
     /** To-many relationship, resolved on first access (and after reset). Changes to to-many relations are not persisted, make changes to the target entity. */
