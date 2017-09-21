@@ -440,16 +440,7 @@ public class Share {
 
                         itemArray.put(itemObject);
                         //item image
-                        copyForShare(item.getImagePath(), appImagePath, shareImagePath);
 
-                        //item Showed mini Image for Orange App
-                        copyForShare(item.getShowedMiniFeedBack(), appImagePath, shareImagePath);
-
-                        //item Hide mini Image for Orange App
-                        copyForShare(item.getHideMiniFeedback(), appImagePath, shareImagePath);
-
-                        //added by  reaz for item sound
-                        copyForShare(item.getItemSound(), appSoundPath, shareSoundPath);
                     }
                 }
 
@@ -498,16 +489,7 @@ public class Share {
                 taskObject.put(ItemDao.TABLENAME, itemArray);
                 taskArray.put(taskObject);
 
-                // Copying related resources to share folder
-                copyForShare(task.getTaskImage(), appImagePath, shareImagePath);
-                copyForShare(task.getBackgroundImage(), appImagePath, shareImagePath);
-                copyForShare(task.getFeedbackImage(), appImagePath, shareImagePath);
-                // Copying related resources to share folder for error image
-                copyForShare(task.getErrorImage(), appImagePath, shareImagePath);
 
-                copyForShare(task.getFeedbackSound(), appSoundPath, shareSoundPath);
-                copyForShare(task.getPositiveSound(), appSoundPath, shareSoundPath);
-                copyForShare(task.getNegativeSound(), appSoundPath, shareSoundPath);
 
             }
 
@@ -527,22 +509,6 @@ public class Share {
 
             taskPackObject.put(TaskDao.TABLENAME, taskArray);
             mainArray.put(taskPackObject);
-        }
-
-
-        //handling the labFolder (its better to copy it with every taskpack so that
-        // if any pic is deleted u can genrate it again from someone else)
-        File labSound=new File(LabSound);
-        File GeneratedLabSound=new File(shareLabSound);
-
-        File labImage=new File(LabImage);
-        File GeneratedLabimage=new File(shareLabImage);
-
-        try {
-            copyDirectoryWholeFolder(labSound,GeneratedLabSound);
-            copyDirectoryWholeFolder(labImage,GeneratedLabimage);
-        } catch (IOException e) {
-            e.printStackTrace();
         }
 
 
@@ -568,36 +534,17 @@ public class Share {
     }
 
     // Read taskPack JSON from SD to save in Database
-    public void readSharedTaskPackJSONtoDatabase() {
+    public void readSharedTaskPackJSONtoDatabase(String filePath) {
+        FileInputStream fileInputStream;
         try {
-            File file = new File(receivedJSONPath, jsonFileName);
-            FileInputStream fileInputStream = new FileInputStream(file);
-            String jsonStr = null;
-            try {
-                FileChannel fileChannel = fileInputStream.getChannel();
-                MappedByteBuffer mappedByteBuffer = fileChannel.map(FileChannel.MapMode.READ_ONLY, 0, fileChannel.size());
-                jsonStr = Charset.defaultCharset().decode(mappedByteBuffer).toString();
-            } finally {
-                fileInputStream.close();
-            }
+            fileInputStream = new FileInputStream(new File(filePath));
+            FileChannel fileChannel = fileInputStream.getChannel();
+          /*  String jsonStr = Charset.defaultCharset().decode(fileChannel.map(FileChannel.MapMode.READ_ONLY, 0, fileChannel.size())).toString();
+            fileInputStream.close();*/
 
-
-            //handling the labFolder (its better to copy it with every taskpack so that
-            // if any pic is deleted u can genrate it again from someone else)
-            File labSound=new File(receivedLabSound);
-            File GeneratedLabSound=new File(LabSound);
-
-            File labImage=new File(receivedLabImage);
-            File GeneratedLabimage=new File(LabImage);
-
-            try {
-                copyDirectoryWholeFolder(labSound,GeneratedLabSound);
-                copyDirectoryWholeFolder(labImage,GeneratedLabimage);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-
-
+            MappedByteBuffer mappedByteBuffer = fileChannel.map(FileChannel.MapMode.READ_ONLY, 0, fileChannel.size());
+           String jsonStr = Charset.defaultCharset().decode(mappedByteBuffer).toString();
+            fileInputStream.close();
 
             JSONObject jsonObj = new JSONObject(jsonStr);
             DateFormat dateFormat = new SimpleDateFormat("EEE MMM d hh:mm:ss z yyyy");
@@ -632,23 +579,6 @@ public class Share {
                     JSONArray taskArray = taskPackObject.getJSONArray(TaskDao.TABLENAME);
                     for (int i = 0; i < taskArray.length(); i++) {
                         JSONObject taskObject = taskArray.getJSONObject(i);
-
-
-                        // Copying Task Image
-                        copyForShare(taskObject.getString(TaskDao.Properties.TaskImage.columnName), receivedImagePath, appImagePath);
-                        try {
-                            copyForShare(taskObject.getString(TaskDao.Properties.BackgroundImage.columnName), receivedImagePath, appImagePath);
-                        } catch (Exception e) {
-
-                        }
-                        copyForShare(taskObject.getString(TaskDao.Properties.FeedbackImage.columnName), receivedImagePath, appImagePath);
-                        copyForShare(taskObject.getString(TaskDao.Properties.ErrorImage.columnName), receivedImagePath, appImagePath);
-                        // Copying Task Sound
-                        copyForShare(taskObject.getString(TaskDao.Properties.FeedbackSound.columnName), receivedSoundPath, appSoundPath);
-                        copyForShare(taskObject.getString(TaskDao.Properties.PositiveSound.columnName), receivedSoundPath, appSoundPath);
-                        copyForShare(taskObject.getString(TaskDao.Properties.NegativeSound.columnName), receivedSoundPath, appSoundPath);
-
-//                        copyForShare(taskObject.getString(TaskDao.Properties.ErrorImage.columnName), receivedSoundPath, appSoundPath);
 
                         Task task = new Task();
                         //Foreign key of taskpackId
@@ -732,23 +662,6 @@ public class Share {
                         for (int j = 0; j < itemArray.length(); j++) {
                             JSONObject itemObject = itemArray.getJSONObject(j);
 
-                            // Copying Item Images
-                            if (itemObject.getString(ItemDao.Properties.ImagePath.columnName).length() > 0) {
-                                copyForShare(itemObject.getString(ItemDao.Properties.ImagePath.columnName), receivedImagePath, appImagePath);
-                            }
-
-                            // Copying Item showed mini Images
-                            if (itemObject.getString(ItemDao.Properties.ShowedMiniFeedBack.columnName).length() > 0) {
-                                copyForShare(itemObject.getString(ItemDao.Properties.ShowedMiniFeedBack.columnName), receivedImagePath, appImagePath);
-                            } // Copying Item hide mini Images
-                            if (itemObject.getString(ItemDao.Properties.HideMiniFeedback.columnName).length() > 0) {
-                                copyForShare(itemObject.getString(ItemDao.Properties.HideMiniFeedback.columnName), receivedImagePath, appImagePath);
-                            }
-
-                            // Copying Item Sound
-                            if (itemObject.getString(ItemDao.Properties.ItemSound.columnName).length() > 0) {
-                                copyForShare(itemObject.getString(ItemDao.Properties.ItemSound.columnName), receivedSoundPath, appSoundPath);
-                            }
 
                             Item item = new Item();
                             // Foreign key of taskid

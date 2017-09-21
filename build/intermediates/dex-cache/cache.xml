@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\RunningApp\JSON_Reader\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c619169bd701eda7960846f23f0172d19dd909d9">
+        <dex dex="F:\RunningApp\JSON_Reader\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0796eb112b342943c97b89ceec46fe0317bafc77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\RunningApp\JSON_Reader\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="F:\RunningApp\JSON_Reader\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_4daa6abb81eb309b7cbb538c7c15b56e97f1039b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\RunningApp\JSON_Reader\Material\build\intermediates\bundles\default\libs\shared-v1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7d55d0a01f75abf0580bd68cc01a658d721f5b6b">
+        <dex dex="F:\RunningApp\JSON_Reader\app\build\intermediates\transforms\dex\debug\folders\1000\8\shared-v1.3_cb27c42375863aba2204ef97efad1961099b1c1f\classes.dex" />
+    </item>
+
+</items>

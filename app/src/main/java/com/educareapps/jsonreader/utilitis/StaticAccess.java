@@ -157,4 +157,6 @@ public class StaticAccess {
         }
         return index;
     }
+
+    public static final String DOT_ORG = ".org";
 }

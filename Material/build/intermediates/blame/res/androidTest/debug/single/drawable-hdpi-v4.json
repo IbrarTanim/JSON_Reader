@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_play.png",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_play.png"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\scrubber_track.9.png",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\scrubber_track.9.png"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_search.png",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_search.png"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_back_grey.png",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_back_grey.png"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher_stop_media.png",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher_stop_media.png"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_main_pressed.png",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_main_pressed.png"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\scrubber_circle.png",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\scrubber_circle.png"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_rec_remove.png",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_rec_remove.png"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_cross.png",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_cross.png"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_pause.png",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_pause.png"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_radio_normal.png",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_radio_normal.png"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_main_normal.png",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_main_normal.png"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_file.png",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_file.png"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_folder.png",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_folder.png"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_radio_pressed.png",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_radio_pressed.png"
+    }
+]

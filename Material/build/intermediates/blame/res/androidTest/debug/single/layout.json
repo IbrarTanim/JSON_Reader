@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog_file.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_file.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\view_video.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\layout\\view_video.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog_form.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_form.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\layout_app_item.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\layout\\layout_app_item.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\progressdialog_horizontal.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\layout\\progressdialog_horizontal.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\progressdialog_large.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\layout\\progressdialog_large.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog_alert.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_alert.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog_input.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_input.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog_app.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_app.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\view_seekbar_accesible.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\layout\\view_seekbar_accesible.xml"
+    }
+]

@@ -1,0 +1,362 @@
+[
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_white_oval_pressed.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_white_oval_pressed.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_green_round_selected.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_green_round_selected.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\progress_color.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\progress_color.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_yellow_round_pressed.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_yellow_round_pressed.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_neutral_rect.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_neutral_rect.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\layer_lock_rect.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\layer_lock_rect.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_dialog.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_dialog.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_blue_round_selected.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_blue_round_selected.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_white_round_selected.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_white_round_selected.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_green_round_transparent.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_green_round_transparent.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_white_oval_normal.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_white_oval_normal.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_red_round.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_red_round.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_yellow_round_transparent.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_yellow_round_transparent.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\layer_lock_oval.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\layer_lock_oval.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_green_rect.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_green_rect.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_white_round_normal.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_white_round_normal.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_yellow_rect_transparent.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_yellow_rect_transparent.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_neutral_rect_transparent.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_neutral_rect_transparent.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_radio.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_radio.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_card_pressed.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_card_pressed.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_green_oval_selected.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_green_oval_selected.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_white_oval.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_white_oval.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_neutral_round_selected.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_neutral_round_selected.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_password_dialog.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_password_dialog.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_yellow_oval_selected.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_yellow_oval_selected.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_red_rect.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_red_rect.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_gray_oval_disabled.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_gray_oval_disabled.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_neutral_oval.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_neutral_oval.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_green_oval_pressed.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_green_oval_pressed.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_yellow_round_normal.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_yellow_round_normal.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_card_gray_aluminium.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_card_gray_aluminium.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_green_round.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_green_round.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_material.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_material.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_card.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_card.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_blue_rect_transparent.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_blue_rect_transparent.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\progress_styled.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\progress_styled.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_green_rect_transparent.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_green_rect_transparent.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_white_round.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_white_round.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_red_oval_pressed.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_red_oval_pressed.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_red_rect_transparent.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_red_rect_transparent.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_neutral_oval_normal.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_neutral_oval_normal.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_neutral_round_pressed.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_neutral_round_pressed.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_blue_oval_selected.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_blue_oval_selected.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_white_rect.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_white_rect.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_red_oval.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_red_oval.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_neutral_oval_transparent.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_neutral_oval_transparent.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_play_pause.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_play_pause.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_green_oval_normal.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_green_oval_normal.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_gray_round_disabled.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_gray_round_disabled.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_blue_round_normal.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_blue_round_normal.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_green_oval.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_green_oval.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_red_round_selected.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_red_round_selected.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_yellow_oval.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_yellow_oval.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_card_locked.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_card_locked.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_red_round_pressed.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_red_round_pressed.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_blue_round.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_blue_round.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_material_white_stroke.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_material_white_stroke.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_yellow_round_selected.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_yellow_round_selected.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_blue_round_pressed.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_blue_round_pressed.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_white_oval_selected.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_white_oval_selected.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_yellow_oval_normal.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_yellow_oval_normal.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_white_round_pressed.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_white_round_pressed.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_neutral_oval_pressed.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_neutral_oval_pressed.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_card_aluminium.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_card_aluminium.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_card_selected.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_card_selected.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_red_round_transparent.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_red_round_transparent.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_red_oval_selected.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_red_oval_selected.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_neutral_round_normal.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_neutral_round_normal.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_yellow_round.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_yellow_round.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_blue_oval_pressed.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_blue_oval_pressed.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_neutral_round.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_neutral_round.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_yellow_rect.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_yellow_rect.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_card_normal.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_card_normal.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_red_oval_normal.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_red_oval_normal.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_blue_oval_normal.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_blue_oval_normal.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_white_rect_transparent.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_white_rect_transparent.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_blue_oval.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_blue_oval.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_blue_rect.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_blue_rect.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\progress_video.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\progress_video.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_green_round_pressed.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_green_round_pressed.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_neutral_round_transparent.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_neutral_round_transparent.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_white_oval_transparent.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_white_oval_transparent.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_red_round_normal.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_red_round_normal.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_blue_round_transparent.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_blue_round_transparent.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\layer_lock_round.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\layer_lock_round.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_green_round_normal.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_green_round_normal.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_neutral_oval_selected.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_neutral_oval_selected.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_yellow_oval_pressed.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_yellow_oval_pressed.xml"
+    },
+    {
+        "merged": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\btn_yellow_oval_transparent.xml",
+        "source": "F:\\RunningApp\\JSON_Reader\\Material\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_yellow_oval_transparent.xml"
+    }
+]

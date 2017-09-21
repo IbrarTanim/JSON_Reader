@@ -172,6 +172,7 @@
     <string name="SequenceText">Click on the view to start creating the sequence</string>
     <string name="SequenceTextBelow">The currently selected sequence is</string>
     <string name="list_is_empty">List is Empty!</string>
+    <string name="importPdialog">please wait importing taskpack.. </string>
 
 
     <string name="green">Green</string>

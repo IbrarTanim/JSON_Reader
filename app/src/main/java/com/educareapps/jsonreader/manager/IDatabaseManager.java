@@ -284,5 +284,5 @@ public interface IDatabaseManager {
      * searching item table for sound
      */
     ArrayList<Item> searchImageFromItem(String imgPath);
-    
+
 }

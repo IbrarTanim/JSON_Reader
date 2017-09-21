@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\RunningApp\JSON_Reader\Material\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="F:\RunningApp\JSON_Reader\Material\build-types\release\jniLibs"/></dataSet></merger>

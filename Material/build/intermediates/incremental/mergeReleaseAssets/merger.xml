@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\RunningApp\JSON_Reader\Material\assets"/><source path="F:\RunningApp\JSON_Reader\Material\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="F:\RunningApp\JSON_Reader\Material\build-types\release\assets"/></dataSet></merger>
