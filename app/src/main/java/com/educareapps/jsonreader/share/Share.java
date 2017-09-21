@@ -49,6 +49,8 @@ import java.util.zip.ZipException;
 import java.util.zip.ZipFile;
 import java.util.zip.ZipOutputStream;
 
+import static android.icu.lang.UCharacter.GraphemeClusterBreak.L;
+
 /**
  * Created by RAFI on 31-Mar-16.
  */
@@ -135,7 +137,7 @@ public class Share {
             jsonArray.put(userData);
         }
         json.put(UserDao.TABLENAME, jsonArray);
-        L.t(context, "" + json);
+//        L.t(context, "" + json);
 
         // Save JSON to SD card
         try {
